@@ -3,7 +3,7 @@
     background-color: black;
     padding: 24px 16px;
     width: 312px;
-    height: 288px;
+    height: 300px;
     box-sizing: border-box;
     border-radius: 16px;
     text-align: center;
@@ -13,6 +13,8 @@
     display: block;
     background-color: transparent;
     position: static;
+    padding: 0;
+    margin-bottom: 24px;
 }
 
 .card header p {
@@ -23,11 +25,11 @@
 .card header h3 {
     font-size: 40px;
     font-weight: var(--title-weight);
-    margin: 3px 0 0;
+    margin: 8px 0 0;
 }
 
 .card header span {
     font-size: 32px;
-    margin-top: 15px;
+    margin-top: 24px;
     display: inline-block;
 }
