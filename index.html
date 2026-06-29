@@ -4,9 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Jornada Viagens</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <a class="logo" href="index.html" title="Voltar para página inicial">
         <img class="img-mobile" src="assets/bussola_jornada_branca.png" alt="Bússola do logo Jornada Viagens na cor branca"/>
         <img class="img-desktop" src="assets/bussola-texto-jornada-branco.png" alt="Logo Jornada Viagens na cor branca">
@@ -124,26 +125,32 @@
         </a>
       </div>
     </section>
-    <section class="destinations">
-      <div class="section-title">
+    <div class="section-title">
         <h2>Destinos Polpulares</h2>
         <hr />
-      </div>
+    </div>
+    <section class="destinations">
+      <!-- <div class="section-title">
+        <h2>Destinos Polpulares</h2>
+        <hr />
+      </div> -->
       <div class="destination-items">
-        <article class="item">
+        <article class="item tokyo">
           <header>
-            <div class="img-item"></div>
-            <h4>Tokyo</h4>
+              <div class="img-item"></div>
+              <h4>Tokyo</h4>
           </header>
           <p>Tóquio é uma cidade vibrante e cosmopolita, com seus templos
-            históricos, museus de arte moderna e arranha-céus icônicos. Não
-            perca a chance de mergulhar em sua atmosfera fascinante.
+              históricos, museus de arte moderna e arranha-céus icônicos. Não
+              perca a chance de mergulhar em sua atmosfera fascinante.
           </p>
           <footer>
-            <a href="#" class="button">Ver detalhes</a>
+              <a href="#" class="button" target="_blank" title="Veja mais detalhes do destino Tokyo">Ver detalhes</a>
           </footer>
         </article>
-        <article class="item">
+      </div>
+      <div class="destination-items">
+        <article class="item osaka">
           <header>
             <div class="img-item"></div>
             <h4>Osaka</h4>
@@ -153,7 +160,7 @@
             partida para explorar outras cidades japonesas próximas.
           </p>
           <footer>
-            <a href="#" class="button">Ver detalhes</a>
+            <a href="#" class="button" target="_blank" title="Veja mais detalhes do destino Osaka">Ver detalhes</a>
           </footer>
         </article>
       </div>
