@@ -27,10 +27,10 @@
 }
 
 .offers .card header {
-    display: block;
+    /* display: block;
     background-color: transparent;
     position: static;
-    padding: 0;
+    padding: 0; */
     margin-bottom: 24px;
 }
 
