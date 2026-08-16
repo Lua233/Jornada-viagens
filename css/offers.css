@@ -75,6 +75,8 @@
     margin-top: 24px;
 }
 
+/* Versões Tablet */
+
 @media screen and (min-width: 768px) {
     .section-title {
         display: flex;
@@ -94,6 +96,7 @@
     }
 }
 
+
 @media screen and (min-width: 1024px) {
     .offers .card {
         width: 420px;
@@ -108,6 +111,8 @@
         font-size: 40px;
     }
 }
+
+/* Versões Desktop  */
 
 @media screen and (min-width: 1310px) {
     .offers .card {
