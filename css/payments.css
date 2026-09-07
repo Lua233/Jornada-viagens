@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 24px;
     height: 460px;
-    margin-top: 24px;
+    /*margin-top: 24px;*/
     width: 100%;
 }
 
@@ -92,5 +92,6 @@
 
     .payments .content-container .image-gallery {
         width: 790px;
+        margin: 0;
     }
 }
