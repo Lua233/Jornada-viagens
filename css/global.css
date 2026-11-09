@@ -64,6 +64,15 @@ section {
   text-align: center;
 }
 
+/*Pacotes de Viagens 
+
+.section-title h1 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}*/
+
 .section-title hr {
   width: 180px;
   height: 4px;

@@ -88,4 +88,12 @@
     .destinations {
         flex-direction: row;
     }
+
+    /* Pacotes de Viagens */
+
+    .destinations .destination-items {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
 }

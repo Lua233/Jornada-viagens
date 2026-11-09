@@ -30,6 +30,21 @@
     grid-column: span 2;
 }
 
+/* PACOTES DE VIAGENS */
+.travel-packages.payments .content-container .image-gallery .image.first {
+  background: url(../assets/gallery1japan-mobile.png) no-repeat;
+  background-size: cover;
+}
+.travel-packages.payments .content-container .image-gallery .image.second {
+  background: url(../assets/gallery2japan-mobile.png) no-repeat;
+  background-size: cover;
+}
+.travel-packages.payments .content-container .image-gallery .image.thirdy {
+  background: url(../assets/gallery3japan-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+
 /* Versões Tablet */
 
 @media screen and (min-width: 768px) {
@@ -51,6 +66,20 @@
     .colspan-2{
         grid-column: span 2;
     }
+
+    /* PACOTES DE VIAGENS */
+  .travel-packages.payments .content-container .image-gallery .image.first {
+    background: url(../assets/gallery1japan-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.payments .content-container .image-gallery .image.second {
+    background: url(../assets/gallery2japan-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.payments .content-container .image-gallery .image.thirdy {
+    background: url(../assets/gallery3japan-tablet.png) no-repeat;
+    background-size: cover;
+  }
 
 }
 
